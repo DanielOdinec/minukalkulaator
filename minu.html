@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="minuCSS.css">
+</head>
+<body>
+
+
+<h2>Sentimeeter</h2>
+<p>Kirjuta pikkus sentimeetrites:</p>
+<div>
+<p>
+    <label>CM</label>
+    <input id="inputcm" type="number" placeholder="cm" oninput="LengthConverter(this.value)" onchange="LengthConverter(this.value)">
+</p>
+<p>Meetrid: <span id="outputMeters"></span></p>
+<p>Kilomeetrid: <span id="outputKM"></span></p>
+<p>Detsimeetrid: <span id="outputDC"></span></p>
+<p>Millimeetrid: <span id="outputMI"></span></p>
+<p>Miilid: <span id="outputMIIL"></span></p>
+
+
+</div>
+<script src="minuJS.js"></script>
+</body>
+</html>
